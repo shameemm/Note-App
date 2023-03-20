@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Grid from '@mui/material/Grid';
+import InputNote from './Components/InputNote/InputNote';
+import NoteList from './Components/NoteList/NoteList';
+import {Routes,Route} from 'react-router-dom'
+import ViewNote from './Components/ViewNote/ViewNote';
+import EditNote from './Components/EditNote/EditNote';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/' element={<NoteList/>}></Route>
+        <Route path='/view-note/:id' element={<ViewNote/>}></Route>
+        <Route path='/edit-note/:id' element={<EditNote></EditNote>}></Route>
+      </Routes>
     </div>
   );
 }

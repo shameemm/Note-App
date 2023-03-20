@@ -1,0 +1,20 @@
+.add-note-form{
+    align-items: center;
+}
+
+input,  textarea{
+    width: 90%;
+    padding: 1rem;
+    border: 1px solid #2B7754;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+ button{
+    padding: 1rem;
+    border: 1px solid #2B7754;
+    border-radius: 5px;
+    margin: 1rem 0;
+    background-color: #2B7754;
+    color: #fff;
+}

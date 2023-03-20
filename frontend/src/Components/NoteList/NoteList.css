@@ -1,0 +1,40 @@
+.note-list{
+   margin: auto; 
+}
+
+.note-heading{
+    margin: .5rem 1rem;
+}
+
+.note-heading h2{
+    margin:0;
+}
+
+.note-card{
+    border: 1px solid #2B7754;
+    height: auto;
+    border-radius: 5px;
+    padding: .5rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+.note-body{
+    display: flex;
+
+}
+.note-buttons span{
+    margin: 0 .5rem;
+    cursor: pointer;
+}
+.add-note{
+    margin-left:auto;
+    padding: .5rem;
+}
+
+.note-head{
+    display:flex;
+}
+.note-buttons{
+    margin-left: auto;
+}
+

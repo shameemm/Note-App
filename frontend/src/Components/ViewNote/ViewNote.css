@@ -1,0 +1,31 @@
+.view-note-card{
+    border: 1px solid #2B7754;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: .5rem;
+    width: 90%;
+    margin: 2rem auto;
+    min-width: 30vw;
+    min-height: 50vh;
+}
+
+.view-note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto
+}
+
+.view-note-title{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.view-note-body{
+    margin-top: 1rem;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 35vh;
+    padding: 0 .5rem;
+}
